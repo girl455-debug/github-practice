@@ -2,4 +2,5 @@ def greet(name):
     return f"Hello, {name}!"
 
 
-print(greet("GitHub"))
+name = input("What is your name? ")
+print(greet(name))
